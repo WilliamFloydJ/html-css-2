@@ -1,0 +1,59 @@
+body {
+  margin: 0px;
+}
+header {
+  align-items: center;
+  display: flex;
+  background-color: rgb(209, 209, 209);
+  width: 100vw;
+  height: 12vh;
+}
+article {
+  margin: 2.5vw;
+  background-color: rgb(226, 226, 226);
+}
+article > p {
+  margin: 0px;
+
+  padding-top: 2vh;
+}
+header div {
+  margin-left: 1vw;
+  background-color: rgb(82, 146, 219);
+  width: 60px;
+  height: 60px;
+}
+.ColorRow {
+  display: flex;
+  width: 100vw;
+  height: 25vh;
+}
+#DarkBlue {
+  background-color: rgb(82, 146, 219);
+}
+#LightBlue {
+  background-color: rgb(93, 233, 214);
+}
+#LightYellow {
+  background-color: rgb(201, 219, 170);
+}
+#DarkYellow {
+  background-color: rgb(244, 255, 96);
+}
+circle {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 5vh;
+  align-items: center;
+  position: sticky;
+  left: 97%;
+  top: 90%;
+  height: 5vh;
+  border-radius: 100%;
+}
+#QuestionMark {
+  color: white;
+  font-size: 150%;
+  text-align: center;
+}
